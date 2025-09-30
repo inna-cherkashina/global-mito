@@ -28,6 +28,7 @@
 }
 
 .footer-logo {
+  display: block;
   width: 233px;
   height: 21px;
 }
