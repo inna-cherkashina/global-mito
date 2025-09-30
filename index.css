@@ -69,6 +69,10 @@ ul {
   padding: 0px;
 }
 
+strong {
+  font-size: 28px;
+}
+
 .center-block {
   width: 1102px;
   margin: 0 auto;
@@ -130,7 +134,8 @@ ul {
 .call-for-entries-container,
 .history-container,
 .who-we-are-container,
-.partners-container {
+.partners-container,
+.what-we-do-container {
   margin: 56px 0px 122px;
   display: flex;
   flex-direction: column;
@@ -175,7 +180,8 @@ ul {
   -o-border-radius: 32px;
 }
 
-.who-we-are_banner-container {
+.who-we-are_banner-container,
+.what-we-do_banner-container {
   width: 317px;
   height: 380px;
   background: #f0f0f0;
@@ -186,7 +192,8 @@ ul {
   -o-border-radius: 32px;
 }
 
-.who-we-are_banner-container img {
+.who-we-are_banner-container img,
+.what-we-do_banner-container img {
   width: 317px;
   height: 380px;
   object-fit: cover;
