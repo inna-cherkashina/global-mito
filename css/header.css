@@ -1,0 +1,87 @@
+.header-section {
+  margin-top: 40px; /* Отступ от баннера */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-container {
+  width: 1366px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Логотип */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 175px;
+}
+
+.logo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Навигация */
+.navigation {
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #000;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff683c;
+}
+
+.nav-button {
+  background-color: #ff683c;
+  color: #fff !important;
+  padding: 9.5px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.nav-button:hover {
+  color: #fff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px #c7c7c7;
+}
