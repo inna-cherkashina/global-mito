@@ -21,7 +21,7 @@
 .description {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 32px;
   font-family: Fira Sans;
   font-weight: 500;
   font-style: Medium;
