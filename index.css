@@ -64,7 +64,12 @@ a {
   max-width: 765px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 56px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 @keyframes scroll {
