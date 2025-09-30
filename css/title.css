@@ -1,5 +1,4 @@
 .title {
-  font-family: Fira Sans;
   font-weight: 500;
   font-style: Medium;
   font-size: 48px;
@@ -8,7 +7,6 @@
 }
 
 .subtitle {
-  font-family: Fira Sans;
   font-weight: 700;
   font-style: Bold;
   font-size: 32px;
@@ -22,7 +20,6 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  font-family: Fira Sans;
   font-weight: 500;
   font-style: Medium;
   font-size: 24px;
