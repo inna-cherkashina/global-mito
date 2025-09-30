@@ -56,6 +56,7 @@ ul {
   width: 1102px;
   margin: 0 auto;
 }
+
 .main-container {
   border-bottom: 1px solid #161817;
   padding: 50px 0px;
@@ -64,19 +65,23 @@ ul {
 .main-container:last-child {
   border-bottom: none;
 }
+
 .main-content {
   display: flex;
   justify-content: space-between;
 }
+
 .title-container {
   max-width: 30%;
 }
+
 .description-container {
   max-width: 765px;
   display: flex;
   flex-direction: column;
   gap: 56px;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -93,6 +98,7 @@ ul {
   -ms-border-radius: 32px;
   -o-border-radius: 32px;
 }
+
 .banner-container img {
   width: 100%;
   height: 100%;
@@ -102,6 +108,27 @@ ul {
   -moz-border-radius: 32px;
   -ms-border-radius: 32px;
   -o-border-radius: 32px;
+}
+.call-for-entries-container {
+  margin: 56px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.call-for-entries-container .title-container {
+  max-width: 541px;
+}
+
+.call-for-entries-container .sub-title-container {
+  max-width: 470px;
+}
+
+.call-for-entries-container .description-container {
+  max-width: 765px;
+}
+
+.call-for-entries-container .description-container .description {
+  max-width: 765px;
 }
 
 @keyframes scroll {
