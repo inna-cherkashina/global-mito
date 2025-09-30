@@ -128,7 +128,8 @@ ul {
 }
 
 .call-for-entries-container,
-.history-container {
+.history-container,
+.who-we-are-container {
   margin: 56px 0px 122px;
   display: flex;
   flex-direction: column;
@@ -173,6 +174,24 @@ ul {
   -o-border-radius: 32px;
 }
 
-/* history-container Начало */
+.who-we-are_banner-container {
+  width: 317px;
+  height: 380px;
+  background: #f0f0f0;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
 
-/* history-container Конец */
+.who-we-are_banner-container img {
+  width: 317px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
