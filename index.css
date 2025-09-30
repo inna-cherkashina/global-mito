@@ -129,7 +129,8 @@ ul {
 
 .call-for-entries-container,
 .history-container,
-.who-we-are-container {
+.who-we-are-container,
+.partners-container {
   margin: 56px 0px 122px;
   display: flex;
   flex-direction: column;
@@ -194,4 +195,21 @@ ul {
   -moz-border-radius: 32px;
   -ms-border-radius: 32px;
   -o-border-radius: 32px;
+}
+
+.partners-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.partners-item {
+  width: 314px;
+  height: 314px;
+  display: block;
+}
+
+.partners-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
