@@ -53,6 +53,10 @@ a {
   border-bottom: 1px solid #161817;
   padding: 50px 0px;
 }
+
+.main-container:last-child {
+  border-bottom: none;
+}
 .main-content {
   display: flex;
   justify-content: space-between;
