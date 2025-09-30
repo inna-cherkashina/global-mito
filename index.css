@@ -131,6 +131,28 @@ ul {
   max-width: 765px;
 }
 
+.call-for-entries-container_banner-container {
+  margin: 66px 0px 122px;
+  max-width: 541px;
+  height: 368px;
+  background: #f0f0f0;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+.call-for-entries-container_banner-container img {
+  max-width: 541px;
+  height: 368px;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
 @keyframes scroll {
   0% {
     transform: translateX(0%);
