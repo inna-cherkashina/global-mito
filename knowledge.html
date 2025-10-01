@@ -245,6 +245,110 @@
         </div>
       </div>
     </footer>
+    <!-- Модальное окно регистрации -->
+    <div class="modal-section" id="modalSection">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-container">
+        <button class="modal-close" id="modalClose" aria-label="Close modal">
+          <span class="close-icon"></span>
+          <span class="close-icon"></span>
+        </button>
+        <div class="modal-header">
+          <h2 class="modal-title">Join us</h2>
+        </div>
+        <div class="modal-body">
+          <form class="registration-form" id="registrationForm">
+            <div class="form-group">
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                class="form-input"
+                placeholder="First Name*"
+                required />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="Last Name*"
+                required />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="organization"
+                name="organization"
+                class="form-input"
+                placeholder="Country" />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="position"
+                name="position"
+                class="form-input"
+                placeholder="Regalia" />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="country"
+                name="country"
+                class="form-input"
+                placeholder="The company you represent" />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="country"
+                name="country"
+                class="form-input"
+                placeholder="The community you belong to" />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="country"
+                name="country"
+                class="form-input"
+                placeholder="Email Address*" />
+            </div>
+
+            <div class="form-group">
+              <input
+                type="text"
+                id="country"
+                name="country"
+                class="form-input"
+                placeholder="Phone Number (include country code)*" />
+            </div>
+
+            <div class="form-group form-checkbox">
+              <input
+                type="checkbox"
+                id="agreement"
+                name="agreement"
+                class="form-checkbox-input"
+                required />
+              <label for="agreement" class="form-checkbox-label">
+                I agree to the terms and conditions *
+              </label>
+            </div>
+
+            <button type="submit" class="form-submit-button">Join</button>
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

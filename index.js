@@ -1,4 +1,40 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // ========== Модальное окно регистрации ==========
+  const modalSection = document.getElementById('modalSection');
+  const modalOverlay = document.getElementById('modalOverlay');
+  const modalClose = document.getElementById('modalClose');
+  const registrationForm = document.getElementById('registrationForm');
+  const registerButtons = document.querySelectorAll('.register-button');
+
+  function openModal() {
+    modalSection.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    modalSection.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  // Обработчики для всех кнопок регистрации
+  registerButtons.forEach((button) => {
+    button.addEventListener('click', function (e) {
+      e.preventDefault();
+      openModal();
+    });
+  });
+
+  modalClose.addEventListener('click', closeModal);
+  modalOverlay.addEventListener('click', closeModal);
+
+  registrationForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    closeModal();
+    registrationForm.reset();
+  });
+
+  // ========== Мобильное меню ==========
   const burgerMenu = document.getElementById('burgerMenu');
   const mobileMenu = document.getElementById('mobileMenu');
   const closeMenu = document.getElementById('mobile-burger-menu');
