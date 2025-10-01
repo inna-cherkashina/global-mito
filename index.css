@@ -27,9 +27,11 @@ body {
 
 .move-line-content {
   display: flex;
+  gap: 50px;
   align-items: center;
   height: 100%;
   white-space: nowrap;
+  color: #fff;
   animation: move-line 60s linear infinite;
   -webkit-animation: move-line 60s linear infinite;
 }

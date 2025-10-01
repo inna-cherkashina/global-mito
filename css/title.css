@@ -1,6 +1,5 @@
 .title {
   font-weight: 500;
-  font-style: Medium;
   font-size: 48px;
   line-height: 100%;
   color: #161817;
@@ -11,7 +10,6 @@
   font-style: Bold;
   font-size: 32px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #161817;
   width: fit-content;
 }
@@ -20,10 +18,9 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  font-weight: 500;
-  font-style: Medium;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 100%;
+  line-height: 34px;
   color: #161817;
   width: fit-content;
 }

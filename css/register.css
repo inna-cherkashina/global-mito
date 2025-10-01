@@ -1,4 +1,5 @@
 .register-button {
+  cursor: pointer;
   background-color: #d16537;
   color: #fff !important;
   padding: 9.5px 20px;
