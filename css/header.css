@@ -148,7 +148,7 @@
 
 /* Выпадающее меню десктоп Конец*/
 
-/* Медиа-запросы для мобильного меню */
+/* мМобильное меню Начало*/
 @media (max-width: 1310px) {
   .desctop-navigation {
     display: none;
@@ -369,5 +369,23 @@
 
   .mobile-dropdown-link:hover {
     color: #d16537;
+  }
+}
+/* Мобильное меню Конец*/
+
+@media (max-width: 780px) {
+  .header-container {
+    height: 55px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 18px;
+    width: 202px;
+  }
+
+  .header-section {
+    margin-bottom: 17px;
   }
 }

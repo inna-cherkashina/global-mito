@@ -24,3 +24,20 @@
   color: #161817;
   width: fit-content;
 }
+
+@media (max-width: 780px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 30px;
+    gap: 16px;
+  }
+}

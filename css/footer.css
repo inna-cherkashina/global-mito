@@ -58,3 +58,29 @@
   font-size: 22px;
   line-height: 100%;
 }
+
+@media (max-width: 1180px) {
+  .footer-container {
+    gap: 24px;
+  }
+}
+
+@media (max-width: 970px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .social-links {
+    align-items: flex-start;
+  }
+
+  .footer-left {
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  .footer-column:first-child {
+    margin: 0px 0px 27px 0px;
+  }
+}

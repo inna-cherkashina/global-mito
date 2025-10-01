@@ -76,8 +76,9 @@ strong {
 }
 
 .center-block {
-  width: 1102px;
+  max-width: 1102px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .main-container {
@@ -222,4 +223,37 @@ strong {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 1180px) {
+  .main-content {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .description-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 780px) {
+  .main-container {
+    padding: 32px 0px 28px;
+  }
+
+  .main-content {
+    gap: 16px;
+  }
+
+  .description-container {
+    gap: 28px;
+  }
+
+  .title-container {
+    max-width: 100%;
+  }
+
+  .wrapper {
+    gap: 16px;
+  }
 }
