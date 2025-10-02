@@ -402,6 +402,17 @@ strong {
   object-fit: cover;
 }
 
+.contacts-title-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.social-icon {
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+}
+
 @media (max-width: 1180px) {
   .main-content {
     flex-direction: column;
@@ -453,6 +464,15 @@ strong {
 
   strong {
     font-size: 20px;
+  }
+
+  .contacts-title-container {
+    gap: 12px;
+  }
+  .social-icon {
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
   }
 
   .banner-container,
