@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
   registrationForm.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    closeModal();
+    // closeModal();
     registrationForm.reset();
   });
 

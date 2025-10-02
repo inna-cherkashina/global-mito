@@ -151,7 +151,7 @@
                 international level, exchange practical solutions, and become part of the Expert
                 map.
               </div>
-              <a href="#" class="register-button">Register interest</a>
+              <a class="register-button">Register interest</a>
             </div>
           </div>
         </div>
@@ -290,12 +290,13 @@
           <h2 class="modal-title">Join us</h2>
         </div>
         <div class="modal-body">
-          <form class="registration-form" id="registrationForm">
+          <form class="registration-form" id="registrationForm"  action="https://formspree.io/f/mnngvpje"
+          method="POST">
             <div class="form-group">
               <input 
                 type="text" 
-                id="fullName" 
-                name="fullName" 
+                id="firstName" 
+                name="firstName" 
                 class="form-input" 
                 placeholder="First Name*"
                 required
@@ -304,9 +305,9 @@
 
             <div class="form-group">
               <input 
-                type="email" 
-                id="email" 
-                name="email" 
+                type="text" 
+                id="lastName" 
+                name="lastName" 
                 class="form-input" 
                 placeholder="Last Name*"
                 required
@@ -316,8 +317,8 @@
             <div class="form-group">
               <input 
                 type="text" 
-                id="organization" 
-                name="organization" 
+                id="country"
+                name="country"
                 class="form-input" 
                 placeholder="Country"
               />
@@ -326,8 +327,8 @@
             <div class="form-group">
               <input 
                 type="text" 
-                id="position" 
-                name="position" 
+                id="regalia"
+                name="regalia"
                 class="form-input" 
                 placeholder="Regalia"
               />
@@ -336,8 +337,8 @@
             <div class="form-group">
               <input 
                 type="text" 
-                id="country" 
-                name="country" 
+                id="company"
+                name="company"
                 class="form-input" 
                 placeholder="The company you represent"
               />
@@ -346,8 +347,8 @@
             <div class="form-group">
               <input 
                 type="text" 
-                id="country" 
-                name="country" 
+                id="community"
+                name="community"
                 class="form-input" 
                 placeholder="The community you belong to"
               />
@@ -355,9 +356,9 @@
 
             <div class="form-group">
               <input 
-                type="text" 
-                id="country" 
-                name="country" 
+                type="email" 
+                id="email"
+                name="email"
                 class="form-input" 
                 placeholder="Email Address*"
               />
@@ -365,9 +366,9 @@
 
             <div class="form-group">
               <input 
-                type="text" 
-                id="country" 
-                name="country" 
+                type="tel" 
+                id="phone"
+                name="phone"
                 class="form-input" 
                 placeholder="Phone Number (include country code)*"
               />
@@ -390,6 +391,7 @@
               Join
             </button>
           </form>
+          <div id="formMessage" style="display: none; margin-top: 15px; padding: 10px; border-radius: 5px;"></div>
         </div>
       </div>
     </div>
