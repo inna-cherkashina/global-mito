@@ -4,6 +4,159 @@
 @import './css/register.css';
 @import './css/modal.css';
 
+/* Fira Sans Font Family */
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+img.descktop {
+  display: block;
+}
+
+img.mobile {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('./fonts/FiraSans-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -158,7 +311,12 @@ strong {
   max-width: 765px;
 }
 
-.call-for-entries-container_banner-container {
+.title__common-container {
+  max-width: 541px;
+}
+
+.call-for-entries-container_banner-container,
+.knowledge__banner-container {
   margin: 66px 0px 0px;
   max-width: 541px;
   height: 368px;
@@ -170,7 +328,8 @@ strong {
   -o-border-radius: 32px;
 }
 
-.call-for-entries-container_banner-container img {
+.call-for-entries-container_banner-container img,
+.knowledge__banner-container img {
   max-width: 100%;
   height: 368px;
   object-fit: cover;
@@ -198,6 +357,27 @@ strong {
   width: 317px;
   height: 380px;
   object-fit: cover;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+.think-tank__banner-container {
+  width: 368px;
+  height: 368px;
+  background: #f0f0f0;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+}
+
+.think-tank__banner-container img {
+  width: 368px;
+  height: 368px;
   border-radius: 32px;
   -webkit-border-radius: 32px;
   -moz-border-radius: 32px;
@@ -268,7 +448,7 @@ strong {
   }
 
   .call-for-entries-container_banner-container {
-    margin: 32px 0px 0px;
+    margin: 16px 0px 0px;
   }
 
   strong {
@@ -278,7 +458,17 @@ strong {
   .banner-container,
   .call-for-entries-container_banner-container,
   .who-we-are_banner-container,
-  .what-we-do_banner-container,
+  .what-we-do_banner-container {
+    width: 100%;
+    height: 260px;
+    background: #f0f0f0;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+  }
+
   .banner-container img,
   .call-for-entries-container_banner-container img,
   .who-we-are_banner-container img,
@@ -290,5 +480,34 @@ strong {
     -moz-border-radius: 14px;
     -ms-border-radius: 14px;
     -o-border-radius: 14px;
+  }
+
+  .think-tank__banner-container {
+    width: 100%;
+    height: 343px;
+    background: #f0f0f0;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+  }
+
+  .think-tank__banner-container img {
+    width: 100%;
+    height: 343px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+  }
+
+  img.descktop {
+    display: none;
+  }
+
+  img.mobile {
+    display: block;
   }
 }
