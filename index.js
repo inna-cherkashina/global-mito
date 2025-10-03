@@ -71,4 +71,30 @@ document.addEventListener('DOMContentLoaded', function () {
       dropdown.classList.toggle('active');
     });
   });
+
+  // ========== Модальное окно Cookie ==========
+  const cookieModal = document.getElementById('cookieModal');
+  const cookieAccept = document.getElementById('cookieAccept');
+
+  function checkCookieConsent() {
+    const consent = localStorage.getItem('cookieConsent');
+    if (!consent) {
+      setTimeout(() => {
+        cookieModal.classList.add('show');
+      }, 1000);
+    }
+  }
+
+  function hideCookieModal() {
+    cookieModal.classList.remove('show');
+  }
+
+  function acceptCookies() {
+    localStorage.setItem('cookieConsent', 'accepted');
+    hideCookieModal();
+  }
+
+  cookieAccept.addEventListener('click', acceptCookies);
+
+  checkCookieConsent();
 });

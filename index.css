@@ -531,3 +531,78 @@ strong {
     display: block;
   }
 }
+
+/* Cookie Modal */
+.cookie-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 16px;
+  width: 232px;
+  background: #f4f4f4;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 10000;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.3s ease;
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  -o-transform: translateY(100px);
+}
+
+.cookie-modal.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.cookie-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cookie-text {
+  gap: 8px;
+  font-size: 14px;
+  color: #161817;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0px 0px 24px 0px;
+}
+
+.cookie-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.cookie-accept {
+  padding: 6px 29px 8px;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.cookie-accept {
+  background: #d16537;
+  color: #fff;
+}
